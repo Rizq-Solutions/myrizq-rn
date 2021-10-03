@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "RIZQ.Nasional",
+    "slug": "rizq-nasional-app",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.8.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/images/ios.icon.png",
+      "bundleIdentifier": "rizq.nasional",
+      "supportsTablet": true,
+      "buildNumber": "33"
+    },
+    "android": {
+      "icon": "./assets/images/android.icon.png",
+      "useNextNotificationsApi": true,
+      "package": "rizq.nasional",
+      "versionCode": 33
+    },
+    "userInterfaceStyle": "automatic",
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "rizq.us",
+            "project": "rizq.nasional",
+            "authToken": null
+          }
+        }
+      ]
+    },
+    "description": ""
+  }
+}

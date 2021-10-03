@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActScreen renders correctly 1`] = `
+<RCTScrollView
+  ListFooterComponent={
+    <Text.Tertiary
+      center={true}
+      lightGray={true}
+      style={
+        Object {
+          "paddingTop": 10,
+        }
+      }
+    >
+      More coming soon! Stay tuned ✌️
+    </Text.Tertiary>
+  }
+  data={Array []}
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "paddingHorizontal": 16,
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <Text.Tertiary
+        center={true}
+        lightGray={true}
+        style={
+          Object {
+            "paddingTop": 10,
+          }
+        }
+      >
+        More coming soon! Stay tuned ✌️
+      </Text.Tertiary>
+    </View>
+  </View>
+</RCTScrollView>
+`;
